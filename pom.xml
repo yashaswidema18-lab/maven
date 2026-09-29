@@ -23,12 +23,13 @@
     <dependencies>
 
         <!-- JUnit for testing -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>5.13.4</version>
-            <scope>test</scope>
-        </dependency>
+       <dependency>
+             <groupId>org.junit.jupiter</groupId>
+             <artifactId>junit-jupiter</artifactId>
+             <version>5.13.4</version>
+             <scope>test</scope>
+       </dependency>
+
 
         <!-- Gson required by App.java -->
         <dependency>
